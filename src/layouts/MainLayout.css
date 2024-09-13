@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px 30px 0px;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  background-color: #f6ce77;
+  background-image: linear-gradient(62deg, #f6ce77 0%, #f2dfbb 100%);
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+.titulo-ilc {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  background-color: #f6ce77;
+  background-image: linear-gradient(62deg, #f6ce77 0%, #f2dfbb 100%);
+}

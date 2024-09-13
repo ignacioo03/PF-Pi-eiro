@@ -1,0 +1,36 @@
+.imagen-detalle {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;  
+    display: block; 
+    margin: 0 auto; 
+}
+
+.titulo-detalle {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background-color: #F6CE77;
+}
+.categoria, .precio, .stock  , .descripcion {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background-color: #F6CE77;
+}
+
+.text-container {
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}

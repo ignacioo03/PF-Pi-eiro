@@ -1,0 +1,46 @@
+.item-count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+button {
+    background-color: #F2CB05;
+    border: 2px solid black;
+    width: 100px;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:#af9303;
+    color: white;
+    transition: 0.5s;
+}
+
+.agregar-al-carrito {
+    background-color:#f2a705;
+    border: none;
+    color: black;
+    width: 215px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.agregar-al-carrito:hover {
+    background-color:white;
+    color:black;
+}

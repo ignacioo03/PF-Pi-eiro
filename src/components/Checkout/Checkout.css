@@ -1,0 +1,57 @@
+.main-title-checkout {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.formulario-contacto input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.formulario-contacto button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.container-checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F6CE77;
+    background-image: linear-gradient(62deg, #F6CE77 0%, #F2DFBB 100%);
+}
+.main-title-compra {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.nav-link-checkout {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.nav-link-checkout:hover {
+    background-color: #af9303;
+    color: black;
+    transition: 0.5s;
+}
