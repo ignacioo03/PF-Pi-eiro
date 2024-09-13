@@ -3,7 +3,7 @@ import { CartContext } from '../../context/CartContext';
 import { useForm } from 'react-hook-form';
 import { collection, addDoc, doc, getDoc, writeBatch } from 'firebase/firestore';
 import { db } from '../../firebase/config';
-import './checkout.css';
+import './Checkout.css';
 import { Link } from 'react-router-dom';
 
 const Checkout = () => {
